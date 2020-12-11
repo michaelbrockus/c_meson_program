@@ -1,0 +1,5 @@
+option('with_tests',
+    type : 'feature',
+    value : 'disabled',
+    description : 'enable unit testing for this project'
+)

@@ -1,0 +1,25 @@
+name: Mac OSX host system
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  macos:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2.3.2
+    - uses: actions/setup-python@v2.1.4
+      with:
+        python-version: '3.9.x'
+    - run: pip install meson ninja
+    - run: brew install ccache cppcheck
+    - run: meson setup build -Dwith_tests=enabled
+    - run: cppcheck --project=build/compile_commands.json
+    - run: meson test -C build -v
+
+    - uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: MacOS_Meson_Testlog
+        path: build/meson-logs/testlog.txt
