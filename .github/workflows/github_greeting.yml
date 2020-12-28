@@ -11,11 +11,11 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: >
           Hi there! 👋🏼
-          As you're new to this repo, we'd like to suggest that you read our [code of conduct](https://github.com/michaelbrockus/c_project_template/blob/main/.github/documents/code_of_conduct.md)
-          as well as our [contribution guidelines](https://github.com/michaelbrockus/c_project_template/blob/main/.github/documents/contributing.md).
+          As you're new to this repo, I would like to suggest that you read our [code of conduct](https://michaelbrockus.home.blog/code-of-conduct/)
+          as well as our [contribution guidelines](https://michaelbrockus.home.blog/contributing/).
           Thanks a bunch for opening your first issue! 🙏
         pr-message: >
-          Congratulations on opening your first pull request! We'll get back to you
+          Congratulations on opening your first pull request! I well get back to you
           as soon as possible. In the meantime, please make sure you've updated the
           documentation to reflect your changes and have added test automation as
           needed. Thanks! 🙏🏼
