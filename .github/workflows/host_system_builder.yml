@@ -44,7 +44,7 @@ jobs:
     - run: pip install meson ninja
     - run: meson setup build -Dwith_tests=enabled
       env:
-        CC: ccache gcc-10
+        CC: ccache gcc
     - run: meson test -C build -v
     - uses: actions/upload-artifact@v1
       if: failure()
