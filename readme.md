@@ -10,7 +10,7 @@ Please add relevant information about your application.
 
 * * *
 
-Targeted audience we are building for is MacOSX and Linux users. This project uses
+Targeted audience we are building for is Windows 10, MacOSX and Linux users. This project uses
 [Meson](https://mesonbuild.com/) `0.56.0` and newer.
 
 ## Setup, Compile and Install
