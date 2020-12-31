@@ -39,7 +39,7 @@ jobs:
     - uses: msys2/setup-msys2@v2
       with:
         update: true
-        install: cache
+        install: ccache gcc
 
     - run: pip install meson ninja
     - run: meson setup build -Dwith_tests=enabled
