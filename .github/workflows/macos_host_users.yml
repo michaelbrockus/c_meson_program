@@ -39,12 +39,12 @@ jobs:
     - uses: msys2/setup-msys2@v2
       with:
         update: true
-        install: ccache
+        install: cache gcc
 
     - run: pip install meson ninja
     - run: meson setup build -Dwith_tests=enabled
       env:
-        CC: ccache gcc
+        CC: ccache gcc-10
     - run: meson test -C build -v
     - uses: actions/upload-artifact@v1
       if: failure()
