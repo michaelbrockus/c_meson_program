@@ -6,6 +6,12 @@
 
 Please add relevant information about your application.
 
+## Program Preview
+
+* * *
+
+Please add an image for the user to see.
+
 ## Tooling information
 
 * * *
