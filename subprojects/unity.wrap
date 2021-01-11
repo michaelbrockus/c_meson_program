@@ -2,3 +2,6 @@
 directory = unity
 url = https://github.com/ThrowTheSwitch/Unity.git
 revision = head
+
+[provides]
+unity = unity_dep
