@@ -1,5 +1,5 @@
 if get_option('with_tests').enabled()
-    unity = dependency('unity', required: false, fallback: 'unity')
+    unity = dependency('unity', fallback: 'unity_dep')
 
     test_exe = executable('test-prog',
         files('test_cases.c'),
