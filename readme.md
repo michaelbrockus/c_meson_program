@@ -53,8 +53,7 @@ prog
 
 * * *
 
-You may find that I have a number of ways that you can contact
-me. All of these methods happen to be listed on my blogging platform
-[Mike's virtual office](https://michaelbrockus.home.blog/contact/).
+You can join the **Dragon App** developer community on [Reddit](https://www.reddit.com/r/dragon_apps/) and follow
+up on any importunt updates and news.
 
 Lastly don't forget to have a cup of virtual coffee. Thanks.
