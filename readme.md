@@ -49,7 +49,7 @@ And finally we run this cool application:
 prog
 ```
 
-## Contact the developer
+## Join the community
 
 * * *
 
