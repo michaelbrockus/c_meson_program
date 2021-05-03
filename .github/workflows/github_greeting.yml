@@ -11,8 +11,8 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: >
           Hi there! 👋🏼
-          As you're new to this repo, I would like to suggest that you read our [code of conduct](https://michaelbrockus.home.blog/code-of-conduct/)
-          as well as our [contribution guidelines](https://michaelbrockus.home.blog/contributing/).
+          As you're new to this repo, I would like to suggest that you read our [code of conduct](https://mikebrockus.code.blog/code-of-conduct/)
+          as well as our [contribution guidelines](https://mikebrockus.code.blog/contributing/).
           Thanks a bunch for opening your first issue! 🙏
         pr-message: >
           Congratulations on opening your first pull request! I well get back to you
