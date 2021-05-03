@@ -49,11 +49,15 @@ And finally we run this cool application:
 prog
 ```
 
-## Join the community
+## Contact the developer
 
 * * *
 
-You can join the **Dragon App** developer community on [Reddit](https://www.reddit.com/r/dragon_apps/) and follow
-up on any importunt updates and news.
+You may find that I have a number of ways that you can contact
+me. All of these methods happen to be listed on my blog
+[Mike's Visual Cube](https://mikebrockus.code.blog/contact-us/).
 
-Lastly don't forget to have a cup of virtual coffee. Thanks.
+Second option would be to join me on [MeWe](https://mewe.com/i/michaelbrockus)
+and see what i'm up to.
+
+Lastly don't forget to have a cup of virtual coffee. ☕🐇💻
