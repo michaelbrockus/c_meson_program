@@ -55,12 +55,12 @@ jobs:
     - uses: actions/checkout@v2
     - uses: nanasess/setup-chromedriver@v1.0.5
     - run: |
-        chromedriver --url-base=/wd/hub &
-        sudo apt-get install python3 python3-pip gcc cppcheck ccache -y
-        python3 -m pip install meson ninja
+        chromedriver --url-base=/wd/hub &&
+        sudo apt-get install python3 python3-pip gcc cppcheck ccache -y &&
+        python3 -m pip install meson ninja &&
 
-        meson setup build -Dwith_tests=enabled
-        cppcheck --project=build/compile_commands.json
+        meson setup build -Dwith_tests=enabled &&
+        cppcheck --project=build/compile_commands.json &&
         meson test -C build -v
 
   ubuntu_linux:
