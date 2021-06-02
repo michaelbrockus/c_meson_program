@@ -16,8 +16,8 @@ Please add an image for the user to see.
 
 * * *
 
-Targeted audience we are building for is Windows 10, MacOSX and Linux users. This project uses
-[Meson](https://mesonbuild.com/) `0.58.0` and newer.
+Targeted audience we are building for is **Windows 10**, **Mac OSX**, **ChromeOS**, and **Linux**
+users. This project uses [Meson](https://mesonbuild.com/) `0.58.0` and newer.
 
 ## Setup, Compile and Install
 
