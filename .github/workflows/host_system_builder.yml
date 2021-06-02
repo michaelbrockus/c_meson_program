@@ -52,6 +52,21 @@ jobs:
         name: Windows_Meson_Testlog
         path: build/meson-logs/testlog.txt
 
+  chrome_book:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nanasess/setup-chromedriver@master
+    - run: |
+        export DISPLAY=:99
+        chromedriver --url-base=/wd/hub &
+        sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
+        sudo apt-get install python3 python3-pip ninja-build gcc ccache -y
+
+        meson setup build -Dwith_tests=enabled
+        cppcheck --project=build/compile_commands.json
+        meson test -C build -v
+
   ubuntu_linux:
     runs-on: ubuntu-latest
     container:
