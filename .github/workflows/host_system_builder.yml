@@ -59,7 +59,7 @@ jobs:
     - uses: nanasess/setup-chromedriver@master
     - run: |
         chromedriver --url-base=/wd/hub &
-        sudo apt-get install python3 python3-pip ninja-build gcc ccache -y
+        sudo apt-get install python3 python3-pip ninja-build meson gcc ccache -y
 
         meson setup build -Dwith_tests=enabled
         cppcheck --project=build/compile_commands.json
