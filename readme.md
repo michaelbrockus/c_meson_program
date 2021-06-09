@@ -58,8 +58,8 @@ prog
 
 * * *
 
-You may find that I the Amphibina projects has a in which you can
-keep up to date on the latest features and news. Simply done by
+You may find that the Amphibina projects has a community in which you
+can keep up to date on the latest features and news. Simply done by
 joining [Amphibian Projects](https://www.reddit.com/r/amphibian_projects/)
 subreddit on reddit.
 
