@@ -54,15 +54,13 @@ And finally we run this cool application:
 prog
 ```
 
-## Contact the developer
+## Join the developer community
 
 * * *
 
-You may find that I have a number of ways that you can contact
-me. All of these methods happen to be listed on my blog
-[Mike's Visual Cube](https://mikebrockus.code.blog/contact-us/).
-
-Second option would be to join me on [MeWe](https://mewe.com/i/michaelbrockus)
-and see what i'm up to.
+You may find that I the Amphibina projects has a in which you can
+keep up to date on the latest features and news. Simply done by
+joining [Amphibian Projects](https://www.reddit.com/r/amphibian_projects/)
+subreddit on reddit.
 
 Lastly don't forget to have a cup of virtual coffee. ☕🐇💻
